@@ -1,0 +1,24 @@
+
+
+
+Gostaria de criar um projeto de amp stories para o meu site ideiasdecor.com.
+No caso, ele vai ficar hospedado em stories.ideiasdecor.com
+
+Vamos usar o React, Next.js, Typescript (se você achar bom) e hospedar tudo no vercel.
+
+Vou pedir para você gerar os amp stories de acordo com a postagem, anexando algumas imagens no projeto.
+
+Pode criar a base desse projeto?
+
+
+------
+
+Agora quero que você cria um amp stories sobre os tapes de crochê.
+
+Trata-se de uma combinação que nunca sai de moda e sempre tem lugar na casa do brasileiro.
+
+Você deve criar o titulo da URL lembrando que o publico é do Google Discover.
+
+Linke para a página https://www.ideiasdecor.com/tapetes-de-croche/ com um link no ultimo slide e também um no slide do meio
+
+Utilize as fotos de tapetes-de-croche na pasta de imagens do projeto.
