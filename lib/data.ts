@@ -70,6 +70,31 @@ export const stories: Record<string, Story> = {
                     url: 'https://www.ideiasdecor.com/sofa-para-escritorio/'
                 }
             },
+            {
+                id: 'branding',
+                imageSrc: '/images/office-reception.png',
+                title: 'Reforce sua marca',
+                description: 'O design do escritório reflete a cultura da empresa. Escolha cores e modelos que comuniquem seus valores.',
+                textPosition: 'top',
+            },
+            {
+                id: 'comfort-work',
+                imageSrc: '/images/collaborative-space.png',
+                title: 'Conforto gera resultados',
+                description: 'Funcionários confortáveis são mais produtivos e criativos. Invista no bem-estar da sua equipe.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'final',
+                imageSrc: '/images/executive-office.png',
+                title: 'Renove seu escritório',
+                description: 'Pequenas mudanças trazem grandes impactos. Comece escolhendo o sofá ideal hoje mesmo.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Ver Catálogo Completo',
+                    url: 'https://www.ideiasdecor.com/sofa-para-escritorio/'
+                }
+            },
         ]
     },
     'tapetes-de-croche-tendencia-que-nunca-morre': {
@@ -122,6 +147,31 @@ export const stories: Record<string, Story> = {
                     url: 'https://www.ideiasdecor.com/tapetes-de-croche/'
                 }
             },
+            {
+                id: 'praticidade',
+                imageSrc: '/images/tapetes-de-croche-3.jpg',
+                title: 'Fácil de cuidar',
+                description: 'Muitos modelos podem ir à máquina! Praticidade que o dia a dia moderno exige.',
+                textPosition: 'top',
+            },
+            {
+                id: 'artesanal',
+                imageSrc: '/images/tapetes-de-croche-4.jpg',
+                title: 'Valor único',
+                description: 'Uma peça exclusiva, feita à mão, que valoriza o trabalho manual e a cultura brasileira.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'final',
+                imageSrc: '/images/tapetes-de-croche-1.jpg',
+                title: 'Transforme seu ambiente',
+                description: 'Não deixe para depois. Dê aquele toque especial que faltava na sua decoração.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Comprar Agora',
+                    url: 'https://www.ideiasdecor.com/tapetes-de-croche/'
+                }
+            },
         ]
     },
     'granito-preto-sao-gabriel-luxo-e-elegancia-no-seu-projeto': {
@@ -171,6 +221,31 @@ export const stories: Record<string, Story> = {
                 textPosition: 'bottom',
                 cta: {
                     text: 'Veja Projetos Inspiradores',
+                    url: 'https://www.ideiasdecor.com/granito-preto-sao-gabriel/'
+                }
+            },
+            {
+                id: 'manutencao',
+                imageSrc: '/images/granito-preto-sao-gabriel-2.jpg',
+                title: 'Limpeza sem estresse',
+                description: 'Água, sabão neutro e um pano macio. É só isso que você precisa para manter seu granito sempre novo.',
+                textPosition: 'top',
+            },
+            {
+                id: 'versatilidade',
+                imageSrc: '/images/granito-preto-sao-gabriel-1jpg.jpg',
+                title: 'Combina com tudo',
+                description: 'Do clássico ao industrial, o preto São Gabriel é o coringa que se adapta a qualquer estilo de decoração.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'conclusao',
+                imageSrc: '/images/granito-preto-sao-gabriel-4.jpg',
+                title: 'Valorize seu imóvel',
+                description: 'Um investimento atemporal que traz beleza, funcionalidade e valorização real para a sua casa.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Faça um Orçamento',
                     url: 'https://www.ideiasdecor.com/granito-preto-sao-gabriel/'
                 }
             },
@@ -231,6 +306,170 @@ export const stories: Record<string, Story> = {
                 cta: {
                     text: 'Confira Opções e Preços',
                     url: 'https://www.ideiasdecor.com/piso-para-banheiro/'
+                }
+            },
+            {
+                id: 'porcelanato',
+                imageSrc: '/images/piso-para-banheiro-7.jpg',
+                title: 'Queridinho: Porcelanato',
+                description: 'Resistente, bonito e versátil. É a escolha certeira que une todas as dicas anteriores em um só material.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'conclusion',
+                imageSrc: '/images/piso-para-banheiro-4.jpg',
+                title: 'Transforme seu banheiro hoje',
+                description: 'Siga essas dicas e garanta um ambiente seguro, lindo e funcional para toda a família.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Ver Lista de Fornecedores',
+                    url: 'https://www.ideiasdecor.com/piso-para-banheiro/'
+                }
+            },
+        ]
+    },
+    'cobogo-o-elemento-vazado-que-transforma-ambientes': {
+        slug: 'cobogo-o-elemento-vazado-que-transforma-ambientes',
+        title: 'Cobogó: O Elemento Que Transforma',
+        publisher: 'Ideias Decor',
+        publisherLogoSrc: '/vercel.svg',
+        posterPortraitSrc: '/images/cobogo-1.jpg',
+        pages: [
+            {
+                id: 'cover',
+                imageSrc: '/images/cobogo-1.jpg',
+                title: 'Você conhece o Cobogó?',
+                description: 'Mais que um tijolo furado, é um ícone da arquitetura brasileira que une beleza e funcionalidade.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'origem',
+                imageSrc: '/images/cobogo-2.jpg',
+                title: 'Orgulho Brasileiro',
+                description: 'Criado em Recife, seu nome vem das iniciais de seus criadores: Coimbra, Boeckmann e Góis.',
+                textPosition: 'top',
+            },
+            {
+                id: 'funcao',
+                imageSrc: '/images/cobogo-3.jpg',
+                title: 'Ventilação e Luz',
+                description: 'A principal função é permitir a passagem de ar e luz natural, mantendo a privacidade do ambiente.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'privacidade',
+                imageSrc: '/images/cobogo-4.jpg',
+                title: 'Divisória Inteligente',
+                description: 'Separe ambientes sem isolá-los completamente. Ideal para cozinhas, lavanderias e salas.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Veja Mais Ideias',
+                    url: 'https://www.ideiasdecor.com/cobogo/'
+                }
+            },
+            {
+                id: 'decoracao',
+                imageSrc: '/images/cobogo-5.jpg',
+                title: 'Elemento Design',
+                description: 'Com diversos padrões geométricos, o cobogó cria jogos de sombra incríveis que decoram por si só.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'materiais',
+                imageSrc: '/images/cobogo-6.jpg',
+                title: 'Diversidade de Materiais',
+                description: 'Do tradicional cimento aos modernos esmaltados e cerâmicos. Existe um ideal para o seu projeto.',
+                textPosition: 'top',
+            },
+            {
+                id: 'versatilidade',
+                imageSrc: '/images/cobogo-1.jpg',
+                title: 'Dentro ou Fora?',
+                description: 'Perfeito para fachadas, muros ou como detalhe interno. A versatilidade é infinita.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'conclusao',
+                imageSrc: '/images/cobogo-3.jpg',
+                title: 'Transforme seu Espaço',
+                description: 'Adicione charme e brasilidade à sua casa com os cobogós. Inspire-se com mais projetos.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Ler Artigo Completo',
+                    url: 'https://www.ideiasdecor.com/cobogo/'
+                }
+            },
+        ]
+    },
+    'geladeiras-decoradas-ideias-criativas-para-transformar-sua-cozinha': {
+        slug: 'geladeiras-decoradas-ideias-criativas-para-transformar-sua-cozinha',
+        title: 'Geladeira Nova Sem Gastar Nada?',
+        publisher: 'Ideias Decor',
+        publisherLogoSrc: '/vercel.svg',
+        posterPortraitSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-46.jpg',
+        pages: [
+            {
+                id: 'cover',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-46.jpg',
+                title: 'Transforme sua Geladeira',
+                description: 'Envelopamento e adesivos podem dar uma vida totalmente nova ao seu eletrodoméstico antigo.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'colors',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-41.jpg',
+                title: 'Explosão de Cores',
+                description: 'Não tenha medo de ousar! Cores vibrantes tornam a geladeira o destaque absoluto da cozinha.',
+                textPosition: 'top',
+            },
+            {
+                id: 'geometric',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-33.jpg',
+                title: 'Padrões Geométricos',
+                description: 'Triângulos, listras e formas abstratas trazem modernidade e um toque artístico único.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'vintage',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-30.jpg',
+                title: 'Estilo Retrô',
+                description: 'O charme do vintage está de volta. Tons pastéis e designs clássicos nunca saem de moda.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Ver Mais Inspirações',
+                    url: 'https://www.ideiasdecor.com/geladeiras-decoradas/'
+                }
+            },
+            {
+                id: 'stickers',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-28.jpg',
+                title: 'Adesivos Divertidos',
+                description: 'Frases, desenhos ou personagens. A personalidade da sua família estampada na cozinha.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'black',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-20.jpg',
+                title: 'Lousa Interativa',
+                description: 'O papel contact preto fosco transforma sua geladeira em um quadro de recados super útil.',
+                textPosition: 'top',
+            },
+            {
+                id: 'floral',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-14.jpg',
+                title: 'Toque Floral',
+                description: 'Traga a natureza para dentro de casa com estampas florais e botânicas delicadas.',
+                textPosition: 'bottom',
+            },
+            {
+                id: 'conclusao',
+                imageSrc: 'https://www.ideiasdecor.com/wp-content/uploads/2023/08/geladeiras-decoradas-46.jpg',
+                title: 'Renove Agora!',
+                description: 'Soluções baratas e criativas para você colocar a mão na massa hoje mesmo.',
+                textPosition: 'top',
+                cta: {
+                    text: 'Confira o Tutorial',
+                    url: 'https://www.ideiasdecor.com/geladeiras-decoradas/'
                 }
             },
         ]

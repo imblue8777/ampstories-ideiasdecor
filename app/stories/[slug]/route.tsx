@@ -36,11 +36,15 @@ export async function GET(
           width="720"
           height="1280"
           layout="responsive"
+          alt="${page.title}"
+          object-fit="cover"
+          animate-in="pan-zoom"
+          animate-in-duration="30s"
         ></amp-img>
       </amp-story-grid-layer>
       
       <amp-story-grid-layer template="vertical" class="${alignClass}">
-        <div class="content-wrapper ${gradientClass}">
+        <div class="content-wrapper ${gradientClass}" animate-in="fly-in-bottom" animate-in-duration="1s" animate-in-delay="0.5s">
             <div class="content-container">
             <h1 class="title">${page.title}</h1>
             <p class="description">${page.description}</p>
@@ -67,6 +71,7 @@ export async function GET(
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
     
     <style amp-custom>
       body { font-family: 'Outfit', sans-serif; }
@@ -151,6 +156,17 @@ export async function GET(
       publisher-logo-src="${storyData.publisherLogoSrc}"
       poster-portrait-src="${storyData.posterPortraitSrc}"
     >
+      <amp-story-auto-ads>
+        <script type="application/json">
+          {
+            "ad-attributes": {
+              "type": "adsense",
+              "data-ad-client": "ca-pub-8839660506637281",
+              "data-ad-slot": "7000806351"
+            }
+          }
+        </script>
+      </amp-story-auto-ads>
       ${pagesHtml}
     </amp-story>
   </body>
