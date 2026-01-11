@@ -38,8 +38,6 @@ export async function GET(
           layout="responsive"
           alt="${page.title}"
           object-fit="cover"
-          animate-in="pan-zoom"
-          animate-in-duration="30s"
         ></amp-img>
       </amp-story-grid-layer>
       
